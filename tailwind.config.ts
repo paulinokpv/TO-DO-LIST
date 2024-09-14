@@ -9,8 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "var(--bg-lightmode)",
         foreground: "var(--foreground)",
+        
+      },
+      backgroundImage: {
+        'header': "url('./header.png')",
       },
     },
   },
